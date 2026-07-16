@@ -2,3 +2,8 @@ langchain_openai
 langchain_core
 python-dotenv
 streamlit
+langserve
+fastapi
+uvicorn
+langchain_google_genai
+langchain_groq

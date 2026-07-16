@@ -12,10 +12,10 @@ os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
 
 # Prompt template
-prompt_template = ChatPromptTemplate(
+prompt_template = ChatPromptTemplate.from_messages(
     [
         ("system","Now act as a good assistant help to solve the problem"),
-        ("User","Question:{question}")
+        ("user","Question:{question}")
     ]
 )
 
