@@ -1,5 +1,7 @@
+langchain
 langchain_openai
 langchain_core
+langchain_community
 python-dotenv
 streamlit
 langserve
@@ -7,3 +9,9 @@ fastapi
 uvicorn
 langchain_google_genai
 langchain_groq
+sse-starlette
+ipykernal
+bs4
+pypdf
+wikipedia
+arxiv
